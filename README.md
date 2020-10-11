@@ -52,5 +52,11 @@ Employees can raise a request, when they click this button. They will be given t
  
  ## Request Page
  <img src="https://github.com/sravansai04/PERMISSION-APPROVAL-SYSTEM/blob/master/request.PNG">
+ 
+ ## Leader Approval 
+ 
+ <p> Leader gets the notifications after employes sends their requests and then leader can accept the employee. below image is how leader can view after employee requests</p>
+ 
+ <img src="https://github.com/sravansai04/PERMISSION-APPROVAL-SYSTEM/blob/master/learderapproval.PNG">
 
 
