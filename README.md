@@ -2,7 +2,12 @@
 <b>Permission Management System</b> is the process of making Permissions computerized. Employees who belongs to that company should have to register for the first time when they are accessing Permission management system portal. Every time one should login for accessing Permission management system portal to raise a request for permission with unique ID and automatically it will be submitted to both leader and manager of employees. Leader and the manager will decide if the permission is to be granted. When a leader or manager reject or accept the permission, it should be reflected on the status page in the employee account. If the manager  approves for the permission then a letter will be generated in the status page. Either manager approves or rejects, the response will be displayed on the dashboards of the employee.
 
 ## You will get the complete code <a href="https://github.com/sravansai04/PERMISSION-APPROVAL-SYSTEM/tree/master">here</a>
- 
+### Software Required 
+<p>
+<a href="https://tomcat.apache.org/download-90.cgi">Apache Tomcat</a>
+<a href="https://www.eclipse.org/downloads/packages/release/indigo/sr2/eclipse-ide-java-ee-developers">Eclipse IDE</a>
+<a href="https://www.oracle.com/in/tools/downloads/sqldev-v192-downloads.html">Oracle Sql</a>
+ </p>
 <b>Modules </b>
   1. EMPLOYEE MODULE
   2. LEADER MODULE
