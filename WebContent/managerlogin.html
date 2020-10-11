@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title>
+</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  background-color:pink;
+  padding: 20px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>WELCOME TO MANAGER</h1>
+</div>
+<div class="topnav">
+
+  <a href="web.html">HOME</a>
+  <a href="#">Departments</a>
+  <a href="Contact.html">Contact</a>
+  <a href="#">Others</a>
+</div>
+<center><h1>Manager Login Form</h1></center>	
+<form name="myform" onSubmit=" validate()" action="prman">
+	<table align="center">
+	<tr><td>User name:</td>
+	<td><input type ="text" name="uname" id="t1"></td><br>
+	<tr><td>password:</td>
+	<td><input type="password" name="pwd" id="ped"></td>
+	<tr><td><center><input type= "submit" value="login"></center></td>
+	<a href="Registrationemp.html" target="_blank">Register</a>
+</form>
+<script>
+function validate()
+{
+if(document.myform.t1.value==""){
+alert("please provide your name!");
+}
+if(document.myform.ped.value==""){
+alert("please provide password!");
+}
+}
+</script>
+</body>
+</html>

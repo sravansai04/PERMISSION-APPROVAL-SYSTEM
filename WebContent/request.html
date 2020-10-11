@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title>
+</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+<body style="background-color:lightblue;">
+body {
+  margin: 0;
+}
+.header {
+  background-color:pink;
+  padding: 20px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>WELCOME TO REQUEST FORM</h1>
+</div>
+<div class="topnav">
+  <a href="web.html">HOME</a>
+  <a href="#">Departments</a>	
+  <a href="Contact.html">Contact</a>
+    <a href="#">Others</a>
+    </div>	
+<form name="myform1"  action="rem"><center><h1> REQUEST FROM </h1></center><br><br>
+<marquee><h2>Please Enter Your Request</h2></marquee>
+Username:<input type="text" name="user"><br>
+EmpId:<input type="text" name="eid"><br>
+Enter Leave Startingdate: <input type="date" name="sdate"><br><br>
+Enter leave  Endingdate:<input type="date" name="edate"><br><br>
+Enter Leave purpose:<br><br>
+ <textarea rows="10" cols="50" name="remarks"> </textarea>
+<input type= "submit" value="submit">
+
+<a href="status.jsp">View Accepted Requests</a>
+</form>
+</body>
+</html>

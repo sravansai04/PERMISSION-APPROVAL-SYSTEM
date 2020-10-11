@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul  {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden:
+   background-color:black:
+}
+li  {
+  float: left;
+}
+li a {
+    display:block;
+   color: white;
+   text-aligin: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+li a:hover:not(.active)  {
+  background-color: green;
+}
+ .active  {
+  background-color: green;
+}
+</style>
+</head>
+<body bgcolor="lightgreen">
+<ul>
+  <li><a class="active" href="web.html">Home</a></li>
+  <li><a href="Contact.html" target="_blank">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<form name="myForm" onSubmit=" return validate()" action="insertemp" method="post">
+<table align="center">
+<tr><td><h1> Registration form</h1><br><br><br></td>
+<tr><td>Enter First Name:</td><td><input type="text" name="T1"><br><br></td><br>
+<tr><td>Enter Last Name:</td><td><input type="text" name="T2" ><br><br></td><br>
+<tr><td>Enter EmpId:</td><td><input type="text" name="T3" ><br><br></td><br>
+<tr><td>Enter UserName:</td><td><input type="text" name="un"><br><br></td><br>
+<tr><td>Enter Password:</td><td><input type="password" name="pw"><br><br></td><br>
+<tr><td>Re-Enter Password:</td><td><input type="password" name="rpw"><br><br></td><br>
+<tr><td>Enter Email:</td><td><input type="text" placeholder="@gmail.com" name="mail"><br><br></td><br>
+<tr><td>Enter Mobile Number:</td><td><input type="text" name="mob"><br><br></td><br>
+<tr><td><center><input type="submit"  value="Register" action="web.html"></center></td>
+</form>
+<script type = "text/javascript">
+      function validate() 
+	{
+        if( document.myForm.T1.value == "" ) {
+            alert( "Please provide your name!" );     
+         }
+         if( document.myForm.mail.value == "" ) {
+            alert( "Please provide your Email!" );
+         }
+         if(document.myForm.T2.value==""){
+	alert("Please provide your last name");
+      }
+         if(document.myForm.un.value==""){
+	alert("Please provide user name");
+	}
+         if(document.myForm.pw.value==""){
+	alert("Please provide password");
+	}	
+            if(document.myForm.rpw.value==""){
+	alert("Please provide re enter password");
+	}
+       if(document.myForm.mob.value==""){
+	alert("Please provide user mobile number");
+	}
+}
+      function phonenumber(document.myForm.mob.value=="")
+      {
+        var phoneno = /^\d{10}$/;
+        if(inputtxt.value.match(phoneno))
+        {
+            return true;
+        }
+        else
+        {
+           alert("Not a valid Phone Number");
+           return false;
+        }
+        }
+</script>
+
+</body>
+</html>

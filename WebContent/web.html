@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+/* Style the header */
+.header {
+  background-color:yellow;
+  padding: 20px;
+  text-align: center;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+<div class="header">
+ <h1>PERMISSION APPROVAL SYSTEM</h1>
+</div>
+<div class="topnav">
+  <a href="web.html">HOME</a>
+  <a href="#">Departments</a>
+  <a href="Contact.html" target="_blank">Contact</a>
+  <a href="#">Others</a>
+</div>
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column" style="background-color:lightgreen;">
+    <h2>Employee</h2>
+    <center><img src="https://cdn3.iconfinder.com/data/icons/business-round-set-2/128/OFFICE_WORK-512.png" alt="employee" height="400" width="300"></center>
+    <center><a href="employelogin.html" target="_blank" class="button">Login</a></center>
+  </div>
+  <div class="column" style="background-color:lightred;">
+    <h2>Leader</h2>
+    <center><img src="https://cdn.iconscout.com/icon/free/png-256/leader-54-542532.png" alt="employee" height="400" width="400"></center>
+    <center><a href="leaderlogin.html" target="_blank" class="button">Login</a></center>
+  </div>
+  <div class="column" style="background-color:lightgreen;">
+    <h2>Manager</h2>
+    <center><img src="https://images.all-free-download.com/images/graphiclarge/idea_concept_background_male_manager_office_space_icons_6837063.jpg" alt="employee" height="400" width="400"></center>
+   <center><a href="managerlogin.html" target="_blank" class="button">Login</a></center>
+  </div>
+</div>
+</body>
+</html>
