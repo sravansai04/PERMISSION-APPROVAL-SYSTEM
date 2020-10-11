@@ -30,4 +30,17 @@ Employees can raise a request, when they click this button. They will be given t
 <b> Pending Permissions:</b>
 <p>When an employee login through Manager button with valid credentials, he/she can see the list of Pending Permissions applied by the Employees working under designated leaders.</p><p> Manager can see both the employee who raised the permission and the leader of employee. Manager will validate the Permission and Unique ID generated at the time of raising a permission. </p><p>Whatever the response of Manager, it will be redirected to both leader and Employee <b>“PERMISSION WITH UNIQUE-ID 348 IS APPROVED/REJECTED” </b>and the status of permission in both Leader module and Employee Module need to be updated corresponding to the response of Manager.</p>
 
+# Outputs
+## Home-Page
+<center><img src="https://github.com/sravansai04/PERMISSION-APPROVAL-SYSTEM/blob/master/homepage.PNG"></center>
+
+## Registration Page
+ <img src="https://github.com/sravansai04/PERMISSION-APPROVAL-SYSTEM/blob/master/registration.PNG">
+ 
+ ## Login Page
+ <img src="https://github.com/sravansai04/PERMISSION-APPROVAL-SYSTEM/blob/master/leaderlogin.PNG">
+ 
+ ## Request Page
+ <img src="https://github.com/sravansai04/PERMISSION-APPROVAL-SYSTEM/blob/master/request.PNG">
+
 
