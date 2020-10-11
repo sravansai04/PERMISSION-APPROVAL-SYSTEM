@@ -4,14 +4,19 @@
 ## You will get the complete code <a href="https://github.com/sravansai04/PERMISSION-APPROVAL-SYSTEM/tree/master">here</a>
 ### Software Required 
 <p>
-<a href="https://tomcat.apache.org/download-90.cgi">Apache Tomcat</a>
-<a href="https://www.eclipse.org/downloads/packages/release/indigo/sr2/eclipse-ide-java-ee-developers">Eclipse IDE</a>
-<a href="https://www.oracle.com/in/tools/downloads/sqldev-v192-downloads.html">Oracle Sql</a>
+ <a href="https://tomcat.apache.org/download-90.cgi">Apache Tomcat</a></p>
+<p>
+  <a href="https://www.eclipse.org/downloads/packages/release/indigo/sr2/eclipse-ide-java-ee-developers">Eclipse IDE</a>
+</p>
+<p>
+ <a href="https://www.oracle.com/in/tools/downloads/sqldev-v192-downloads.html">Oracle Sql</a>
  </p>
-<b>Modules </b>
-  1. EMPLOYEE MODULE
-  2. LEADER MODULE
-  3. MANAGER MODULE
+ <p>
+<b>Modules </b></p>
+<p>
+  1. EMPLOYEE MODULE</p>
+ <p> 2. LEADER MODULE</p>
+<p>  3. MANAGER MODULE</p>
   
   Lets' have a discussion regarding all the modules
   
